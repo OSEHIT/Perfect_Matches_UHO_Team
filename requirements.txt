@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+scikit-learn
+sentence-transformers
+torch
+nltk
+networkx
+tqdm
+matplotlib
+jupyter
+ipykernel
