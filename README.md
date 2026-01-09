@@ -62,9 +62,9 @@ Les modèles sont évalués sur le set de validation via la **Précision**, le *
 | Modèle | Précision (@5) | Rappel (@5) | F1-Score | AUC |
 | :--- | :---: | :---: | :---: | :---: |
 | **TF-IDF (Baseline)** | 0.4980  | 0.5052 | 0.5016 | 0.7214 |
-| **SBERT (MiniLM)** | 0.98 | 0.30 | 0.46 | 0.95 |
-| **SPECTER (AllenAI)** | 0.80 | 0.81 | 0.80 | 0.96 |
-| **SPECTER + Graph Smoothing** 🏆 | **0.83** | **0.84** | **0.83** | **0.97** |
+| **SBERT (MiniLM)** | 0.9877 | 0.3026 | 0.4633 | 0.9550 |
+| **SPECTER (AllenAI)** | 0.8017 | 0.8139 | 0.8067 | 0.9632 |
+| **SPECTER + Graph Smoothing** 🏆 | **0.8314** | **0.8439** | **0.8366** | **0.9712** |
 
 > **Conclusion :** L'ajout de l'information topologique (Graphe) au modèle spécialisé (SPECTER) permet d'atteindre les meilleures performances, illustrant la complémentarité entre le contenu textuel et la structure du réseau scientifique.
 
