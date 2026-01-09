@@ -16,7 +16,7 @@ Le projet compare des approches classiques (TF-IDF), neuronales (Transformers), 
 ## 🎯 Objectifs
 
 * **Recherche d'Information (IR) :** Construire un système capable de classer des documents scientifiques par pertinence sémantique.
-* **Comparaison d'approches :** Évaluer le gap de performance entre les méthodes fréquentielles (Sparse) et les représentations denses (Embeddings).
+* **Comparaison d'approches :** Évaluer le gap de performance entre les méthodes fréquentielles (Sparse), les représentations denses (Embeddings) et structurelles.
 * **Hybridation :** Exploiter la structure du graphe de citations pour enrichir les vecteurs sémantiques.
 
 ---
