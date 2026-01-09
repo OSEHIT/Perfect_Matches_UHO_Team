@@ -47,6 +47,11 @@ Utilisation de Transformers pour projeter les textes dans un espace vectoriel s�
     * `allenai-specter` : Modèle SOTA pré-entraîné spécifiquement sur des citations scientifiques.
 * **Stratégie :** Concaténation `[Title] + [SEP] + [Abstract]` pour maximiser l'information contextuelle.
 
+### 3. Approche Structurelle (PageRank)
+Analyse purement structurelle basée sur le graphe de citations.
+* **Hypothèse :** La pertinence est corrélée à l'influence globale (centralité) de l'article.
+* **Algorithme :** PageRank (`alpha=0.85`).
+
 ### 3. Approche Hybride : Graph Enhanced Embeddings
 L'hypothèse est que des papiers cités ensemble ou connectés partagent une sémantique forte.
 * **Graphe de citations :** Construction via NetworkX (25k nœuds, 54k arcs).
