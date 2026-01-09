@@ -94,7 +94,7 @@ Les modèles sont évalués sur le set de validation via la **Précision**, le *
     ```
 
 3.  **Lancer le notebook :**
-    Ouvrez `Scientific_Search_Engine.ipynb` (ou le nom que vous donnerez au fichier) dans Jupyter ou Google Colab.
+    Ouvrez `BE_CS2_Perfect_Matches.ipynb` dans Jupyter ou Google Colab.
 
     *Note : L'étape d'encodage avec SPECTER peut prendre quelques minutes sans GPU. Le code inclut un mécanisme de cache (`.pkl`) pour ne pas recalculer les embeddings à chaque exécution.*
 
