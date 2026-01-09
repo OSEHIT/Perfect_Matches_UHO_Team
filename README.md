@@ -52,7 +52,7 @@ Analyse purement structurelle basée sur le graphe de citations.
 * **Hypothèse :** La pertinence est corrélée à l'influence globale (centralité) de l'article.
 * **Algorithme :** PageRank (`alpha=0.85`).
 
-### 3. Approche Hybride : Graph Enhanced Embeddings
+### 4. Approche Hybride : Graph Enhanced Embeddings
 L'hypothèse est que des papiers cités ensemble ou connectés partagent une sémantique forte.
 * **Graphe de citations :** Construction via NetworkX (25k nœuds, 54k arcs).
 * **Lissage vectoriel :** Mise à jour de l'embedding d'un document par une combinaison linéaire de son vecteur propre et de la moyenne des vecteurs de ses voisins (cités/citants).
