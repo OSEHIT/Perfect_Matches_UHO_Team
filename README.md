@@ -9,7 +9,7 @@
 
 Ce projet implémente un **moteur de recherche sémantique** avancé destiné à la recommandation d'articles scientifiques. Il résout un problème de *Citation Matching* : étant donné un article (requête), retrouver les articles qu'il cite parmi une liste de candidats, en distinguant les liens pertinents du bruit.
 
-Le projet compare des approches classiques (TF-IDF), neuronales (Transformers) et hybrides (Graph Enhanced Embeddings).
+Le projet compare des approches classiques (TF-IDF), neuronales (Transformers), Topologiques (PageRank) et hybrides (Graph Enhanced Embeddings).
 
 ---
 
