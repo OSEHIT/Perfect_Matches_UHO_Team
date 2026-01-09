@@ -61,7 +61,7 @@ Les modèles sont évalués sur le set de validation via la **Précision**, le *
 
 | Modèle | Précision (@5) | Rappel (@5) | F1-Score | AUC |
 | :--- | :---: | :---: | :---: | :---: |
-| **TF-IDF (Baseline)** | *Faible* | *Faible* | - | - |
+| **TF-IDF (Baseline)** | 0.4980  | 0.5052 | 0.5016 | 0.7214 |
 | **SBERT (MiniLM)** | 0.98 | 0.30 | 0.46 | 0.95 |
 | **SPECTER (AllenAI)** | 0.80 | 0.81 | 0.80 | 0.96 |
 | **SPECTER + Graph Smoothing** 🏆 | **0.83** | **0.84** | **0.83** | **0.97** |
